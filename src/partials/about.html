@@ -1,0 +1,164 @@
+<section class="about-section section" id="about">
+  <div class="container about-wrapper">
+    <h2 class="visually-hidden">About me</h2>
+
+    <div class="about-container-title">
+      <div class="about-container-title-text">
+        <h3 class="about-header-title">
+          I work with people all over the world to create impressive and
+          <span class="functional">functional</span>
+          <span class="websites">websites</span> that reflect each client's
+          unique personality.
+        </h3>
+      </div>
+
+      <picture>
+        <source
+          class="about-image"
+          media="(min-width: 1440px)"
+          srcset="
+            ./img/about/about-desc-min.png    1x,
+            ./img/about/about-desc@2x-min.png 2x
+          "
+          width="680"
+          height="700"
+        />
+        <source
+          class="about-image"
+          media="(min-width: 768px) and (max-width: 1439px)"
+          srcset="
+            ./img/about/about-tab-min.png    1x,
+            ./img/about/about-tab@2x-min.png 2x
+          "
+          width="704"
+          height="700"
+        />
+        <source
+          class="about-image"
+          media="(max-width: 767px)"
+          srcset="
+            ./img/about/about-mob-min.png    1x,
+            ./img/about/about-mob@2x-min.png 2x
+          "
+          width="343"
+          height="500"
+        />
+        <img
+          class="about-image"
+          src="./img/about/about-mob-min.png"
+          alt="about me"
+          width="343"
+          height="500"
+        />
+      </picture>
+    </div>
+
+    <!-- Accordeon -->
+
+    <div class="about-containar-accordion">
+      <ul class="accordion-container-about">
+        <li class="ac">
+          <h3 class="ac-header">
+            <button type="button" class="ac-trigger about-text-btn">
+              About me
+              <svg class="about-arrow arrow-down" width="24" height="16">
+                <use href="./img/sprite.svg#icon-arrow-down"></use>
+              </svg>
+              <svg class="about-arrow arrow-up" width="24" height="16">
+                <use href="./img/sprite.svg#icon-arrow-up"></use>
+              </svg>
+            </button>
+          </h3>
+          <div class="ac-panel">
+            <p class="ac-text">
+              Inspired Front-end developer with strong analytical thinking and
+              well-developed organizational skills. Ambitious, highly
+              responsible, punctual, and goal- oriented person, always ready to
+              learn and gain new experiences. The ability to focus on details
+              and time management are also good strengths of mine. Friendly team
+              player with a good sense of humor.
+            </p>
+            <!-- <p class="ac-text">
+              Able to work both independently and in a team. I can effectively
+              cooperate with colleagues, exchanging ideas and finding optimal
+              solutions. Professional maturity allows you to calmly cope with
+              challenges and stressful situations, while maintaining a high
+              quality of work. I am always looking for opportunities for
+              self-improvement. I actively study new technologies and practices
+              to stay abreast of the latest innovations. I have a strong
+              understanding of various programming languages, frameworks and
+              architectural concepts that allow me to create efficient and
+              scalable software.
+            </p> -->
+          </div>
+        </li>
+        <li class="ac">
+          <h3 class="ac-header">
+            <button type="button" class="ac-trigger about-text-btn">
+              Role
+              <svg class="about-arrow arrow-down" width="24" height="16">
+                <use href="./img/sprite.svg#icon-arrow-down"></use>
+              </svg>
+              <svg class="about-arrow arrow-up" width="24" height="16">
+                <use href="./img/sprite.svg#icon-arrow-up"></use>
+              </svg>
+            </button>
+          </h3>
+          <div class="ac-panel">
+            <p class="ac-text">Frontend development</p>
+            <!-- <p class="ac-text">HeadlessCMS,Wordpress</p>
+            <p class="ac-text">Blender(enjoy)</p> -->
+          </div>
+        </li>
+
+        <li class="ac">
+          <h3 class="ac-header">
+            <button type="button" class="ac-trigger about-text-btn">
+              Education
+              <svg class="about-arrow arrow-down" width="24" height="16">
+                <use href="./img/sprite.svg#icon-arrow-down"></use>
+              </svg>
+              <svg class="about-arrow arrow-up" width="24" height="16">
+                <use href="./img/sprite.svg#icon-arrow-up"></use>
+              </svg>
+            </button>
+          </h3>
+          <div class="ac-panel">
+            <p class="ac-text">
+              2023 - 2024 / Full Stack Developer (Student), GoIT IT School
+            </p>
+            <p class="ac-text">
+              2015 - 2020 / Yuriy Fedkovych Chernivtsi National University, Law,
+              Bachelor's degree, Law
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Swiper -->
+    <div class="about-swipper-wrapper">
+      <div class="about-swiper-container">
+        <ul class="swiper-wrapper about-swiper-list">
+          <li class="swiper-slide about-swiper-items"><p>HTML/CSS</p></li>
+          <li class="swiper-slide about-swiper-items"><p>JavaScript</p></li>
+          <li class="swiper-slide about-swiper-items"><p>React</p></li>
+          <li class="swiper-slide about-swiper-items"><p>Node.js</p></li>
+          <li class="swiper-slide about-swiper-items"><p>Redux</p></li>
+          <li class="swiper-slide about-swiper-items"><p>WebPack</p></li>
+          <li class="swiper-slide about-swiper-items"><p>RestApi</p></li>
+          <li class="swiper-slide about-swiper-items">
+            <p>Adaptive design</p>
+          </li>
+        </ul>
+      </div>
+      <div class="swiper-button-next">
+        <button type="button" class="about-button-next">
+          <svg class="about-next-arrow" width="28" height="28">
+            <use href="./img/sprite.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>

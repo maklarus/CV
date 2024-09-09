@@ -1,19 +1,53 @@
 <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+  <div class="header__container">
+    <div class="header__logo">
+      <img
+        src="./img/header/header.png"
+        srcset="./img/header/header.png 1x, ./img/header/header@2x.png 2x"
+        alt="Photo of Jefferson"
+        class="header__logo-img"
+        width="80"
+        height="80"
+      />
+      <p class="header__logo-para">khariuk*</p>
+    </div>
+    <button class="header__menu-btn">
+      <span class="header__menu-btn-span">Menu</span>
+      <svg class="header__burger-icon" width="28" height="28">
+        <use href="./img/sprite.svg#icon-burger"></use>
+      </svg>
+    </button>
+    <div class="header__order-link-container">
+      <a href="#work-together" class="header__order-link" id="desk-order-link"
+        >Order the project</a
+      >
+    </div>
+  </div>
+
+  <div class="header__backdrop visually-hidden">
+    <button class="header__menu-close-btn">
+      <svg class="header__close-icon" width="28" height="28">
+        <use href="./img/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+    <nav class="header__nav">
+      <ul class="header__nav-list">
+        <li class="header__nav-item">
+          <a href="#about" class="header__nav-link">About me</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        <li class="header__nav-item">
+          <a href="#benefits" class="header__nav-link">Benefits</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#projects" class="header__nav-link">Projects</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#faq" class="header__nav-link">FAQ</a>
         </li>
       </ul>
     </nav>
+    <div class="header__mobile-order-link-container">
+      <a href="#work-together" class="header__order-link">Order the project</a>
+    </div>
   </div>
 </header>
