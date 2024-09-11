@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function initialize() {
   }
 
   function resetAndApplyAnimation(img) {
-    img.style.animation = 'slideInFromBottomRight 2s ease-in-out forwards';
+    img.style.animation = 'slideInFromBottomRight 0.5s ease-in-out forwards';
   }
 
   const observerOptions = {

@@ -128,11 +128,13 @@
 }
 
 .email-sect-work {
-  width: 178px;
+  font-size: 13px;
+  /* width: 178px; */
 }
 
 .tel-sect-work {
-  width: 118px;
+  font-size: 13px;
+  /* width: 118px; */
 }
 
 /* /Address */
@@ -184,10 +186,12 @@
     height: 55px;
   }
   .email-sect-work {
-    width: 239px;
+    font-size: inherit;
+    /* width: 239px; */
   }
   .tel-sect-work {
-    width: 171px;
+    font-size: inherit;
+    /* width: 171px; */
   }
 }
 

@@ -173,6 +173,9 @@
   }
 
   .right-block {
+    display: flex;
+    min-height: 800px;
+    align-items: center;
     padding: 120px 45px;
   }
 
