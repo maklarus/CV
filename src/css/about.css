@@ -246,19 +246,19 @@
   }
 
   .about-container-title-text {
-    width: 704px;
+    width: 523px;
     height: 700px;
     padding-left: 64px;
     padding-right: 64px;
     padding-top: 64px;
   }
   .about-header-title {
-    font-size: 38px;
+    font-size: 51px;
     line-height: 1.05263;
   }
 
   .about-image {
-    width: 704px;
+    width: 520px;
     height: 700px;
   }
 
@@ -300,7 +300,7 @@
   }
 
   .about-image {
-    width: 680px;
+    width: 520px;
     height: 700px;
   }
 
@@ -309,6 +309,14 @@
     gap: 32px;
     margin-right: 68px;
     margin-left: auto;
+  }
+
+  .about-header-title {
+    font-size: 54px;
+  }
+
+  .about-container-title-text {
+    width: 700px;
   }
   .about-wrapper {
     gap: 64px;
