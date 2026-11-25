@@ -1,1 +1,0 @@
-const emailText = document.querySelector;
